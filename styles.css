@@ -1,35 +1,101 @@
 /*** Universal Styles ***/
 
+* {
+    border: 2px solid turquoise;
+}
+
 html {
 
 }
 
 body {
 
+    
 }
 
 /*** Header Section ***/
 
 header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+
+header img{
+    height: 120px;
 
 }
+
+nav {
+    display: flex;
+    align-content: center;
+}
+
+ul {
+    text-align: right;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+li {
+    list-style: none;
+    margin: auto;
+    margin-right: 20px;
+    font-size: 18px;
+}
+
 
 /*** Main Section ***/
 
 main {
+    
+}
+
+#grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(200px, 500px));
+    grid-template-rows: repeat(6, minmax(200px, 500px));
+    grid-gap: 10px;
 
 }
 
 /*** Mission Section ***/
 
 #mission {
-
+    background-image: url('./images/woman-back-lifting.jpeg');
+    background-size: cover;
+    min-height: 400px;
+    grid-column: 1 / span 4;
+    opacity: 0.6;
+    text-align: center;
+    align-items: center;
+    color: white;
+    font-style: bold;
+    font-size: 22px;
 }
+
+
 
 /*** About Us Section ***/
 
-#about {
 
+
+img {
+    height: 300px;
+    width: auto;
+}
+
+.strength h3 {
+    grid-row: 2 / span 1;
+    grid-column: 1 / span 1;
+}
+
+.strength img {
+    grid-row: 2 / span 1;
+    grid-column: 2 / span 1;
 }
 
 /*** Meet the Team Section ***/
