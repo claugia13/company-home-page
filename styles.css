@@ -1,16 +1,13 @@
 /*** Universal Styles ***/
 
-* {
-    border: 2px solid turquoise;
+html, body {
+    width: 100%;
 }
 
-html {
-
-}
-
-body {
-
-    
+h3 {
+    font-size: 30px;
+    margin: auto;
+    padding: 20px;
 }
 
 /*** Header Section ***/
@@ -29,8 +26,9 @@ header img{
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 56px;
     font-weight: 900;
+    margin-right: auto;
 }
 
 nav {
@@ -43,13 +41,14 @@ ul {
     display: flex;
     flex-wrap: wrap;
     margin: 10px;
+    justify-content: center;
 }
 
 li {
     list-style: none;
     margin: auto;
     margin-right: 20px;
-    font-size: 20px;
+    font-size: 24px;
 }
 
 
@@ -59,22 +58,18 @@ main {
     font-family: 'Comic Neue', cursive;
 }
 
-#flex-container {
-    
-
-}
 
 /*** Mission Section ***/
 
 #mission {
     background-image: url('./images/woman-back-lifting.jpeg');
     background-size: cover;
-    min-height: 400px;
+    min-height: 500px;
     opacity: 0.6;
     text-align: center;
     color: white;
     font-style: bold;
-    font-size: 32px;
+    font-size: 36px;
 }
 
 
@@ -83,11 +78,11 @@ main {
 
 #about {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-content: center;
     justify-items: center;
     align-items: center;
-    border: 2px solid red;
     background-color: rgb(44, 42, 42);
     color: white;
 }
@@ -97,12 +92,9 @@ img {
     min-height: 100px;
     max-width: 500px;
     max-height: 500px;
-    margin: 10px;
+    margin: auto;
 }
 
-h3 {
-    font-size: 40px;
-}
 
 .content {
     z-index: 10;
@@ -110,14 +102,40 @@ h3 {
   
 }
 
+.strength, .confidence, .mental-health, .community {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    min-width: 300px;
+}
+
+#about h2, #team h2 {
+    color: black;
+    font-size: 40px;
+    width: 100%;
+    background-color: white;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
 
 /*** Meet the Team Section ***/
 
-
-
+figure {
+    font-size: 20px;
+    text-align: center;
+}
 
 /*** Contact Us Section ***/
 
 #contact {
-    
+    font-size: 20px;
+}
+
+/*** Footer Section ***/
+
+footer {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: 20px;
 }
