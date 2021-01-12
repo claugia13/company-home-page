@@ -82,10 +82,7 @@ main {
 /*** About Us Section ***/
 
 #about {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(200px, 600px));
-    grid-template-rows: repeat(4, minmax(200px, 600px));
-    grid-gap: 10px;
+    display: flex;
     justify-content: center;
     align-content: center;
     justify-items: center;
@@ -113,46 +110,6 @@ h3 {
   
 }
 
-.strength.content {
-    grid-row: 1 / span 1;
-    grid-column: 1 / span 1;
-}
-
-.strength.img {
-    grid-row: 1 / span 1;
-    grid-column: 2 / span 1;
-}
-
-.confidence.content {
-    grid-row: 2 / span 1;
-    grid-column: 2 / span 1;
-}
-
-.confidence.img {
-    grid-row: 2 / span 1;
-    grid-column: 1 / span 1;
-    
-}
-
-.mental-health.content {
-    grid-row: 3 / span 1;
-    grid-column: 1 / span 1;
-}
-
-.mental-health.img {
-    grid-row: 3 / span 1;
-    grid-column: 2 / span 1;
-}
-
-.community.content {
-    grid-row: 4 / span 1;
-    grid-column: 2 / span 1;
-}
-
-.community.img {
-    grid-row: 4 / span 1;
-    grid-column: 1 / span 1;
-}
 
 /*** Meet the Team Section ***/
 
