@@ -20,12 +20,17 @@ header {
     flex-wrap: wrap;
     justify-content: space-between;
     width: 100%;
-    
+    font-family: 'Shadows Into Light', cursive;
 }
 
 header img{
     height: 120px;
 
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 900;
 }
 
 nav {
@@ -44,21 +49,18 @@ li {
     list-style: none;
     margin: auto;
     margin-right: 20px;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 
 /*** Main Section ***/
 
 main {
-    
+    font-family: 'Comic Neue', cursive;
 }
 
-#grid-container {
-    display: grid;
-    grid-template-columns: repeat(4, minmax(200px, 500px));
-    grid-template-rows: repeat(6, minmax(200px, 500px));
-    grid-gap: 10px;
+#flex-container {
+    
 
 }
 
@@ -68,41 +70,94 @@ main {
     background-image: url('./images/woman-back-lifting.jpeg');
     background-size: cover;
     min-height: 400px;
-    grid-column: 1 / span 4;
     opacity: 0.6;
     text-align: center;
-    align-items: center;
     color: white;
     font-style: bold;
-    font-size: 22px;
+    font-size: 32px;
 }
 
 
 
 /*** About Us Section ***/
 
-
-
-img {
-    height: 300px;
-    width: auto;
+#about {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(200px, 600px));
+    grid-template-rows: repeat(4, minmax(200px, 600px));
+    grid-gap: 10px;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    border: 2px solid red;
+    background-color: rgb(44, 42, 42);
+    color: white;
 }
 
-.strength h3 {
-    grid-row: 2 / span 1;
+img {
+    min-width: 100px;
+    min-height: 100px;
+    max-width: 500px;
+    max-height: 500px;
+    margin: 10px;
+}
+
+h3 {
+    font-size: 40px;
+}
+
+.content {
+    z-index: 10;
+    text-align: center;
+  
+}
+
+.strength.content {
+    grid-row: 1 / span 1;
     grid-column: 1 / span 1;
 }
 
-.strength img {
+.strength.img {
+    grid-row: 1 / span 1;
+    grid-column: 2 / span 1;
+}
+
+.confidence.content {
     grid-row: 2 / span 1;
     grid-column: 2 / span 1;
 }
 
+.confidence.img {
+    grid-row: 2 / span 1;
+    grid-column: 1 / span 1;
+    
+}
+
+.mental-health.content {
+    grid-row: 3 / span 1;
+    grid-column: 1 / span 1;
+}
+
+.mental-health.img {
+    grid-row: 3 / span 1;
+    grid-column: 2 / span 1;
+}
+
+.community.content {
+    grid-row: 4 / span 1;
+    grid-column: 2 / span 1;
+}
+
+.community.img {
+    grid-row: 4 / span 1;
+    grid-column: 1 / span 1;
+}
+
 /*** Meet the Team Section ***/
 
-#team {
 
-}
+
 
 /*** Contact Us Section ***/
 
