@@ -7,7 +7,6 @@
 * [Screenshots](#screenshots)
 * [Technologies](#technologies)
 * [Setup](#setup)
-* [Features](#features)
 * [Status](#status)
 * [Inspiration](#inspiration)
 * [Contact](#contact)
@@ -17,8 +16,7 @@ In this project, you’ll be using flexbox to design and build the layout for a 
 
 ## Project Requirements (from Codecademy)
 
-1. 
-You’re going to build a company homepage for a real or imagined company. You’ll get to decide exactly what content to include for this company, but you should at least include:
+1. You’re going to build a company homepage for a real or imagined company. You’ll get to decide exactly what content to include for this company, but you should at least include:
 
 * A title and logo or splash image.
 * A mission statement or brief description of the company.
@@ -37,8 +35,7 @@ In our example project, we used flexbox to:
 
 Our example site is not an elaborate use of flexbox–we’re sure you can come up with other uses of flexbox in your layout, such as taking advantage of flex-grow or flex-shrink.
 
-3. 
-Your page should also use custom styles for other properties, such as colors, fonts, and other layout properties such as borders and padding.
+3. Your page should also use custom styles for other properties, such as colors, fonts, and other layout properties such as borders and padding.
 
 Our example site uses:
 
@@ -56,7 +53,7 @@ Get creative! Customizing your site’s look and feel is one of the most excitin
 * CSS3
 
 ## Setup
-Describe how to install / setup your local environement / add link to demo version.
+Download zip files from GitHub and open index.html file in local browser to view webpage.
 
 ## Code Examples
 ```css
